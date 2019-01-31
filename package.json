@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-	"start": "node server.js",
-	"heroku-prebuild": "yarn install --production=false"  
+	"start": "node server.js"  
   },
   "author": "",
   "license": "ISC",
