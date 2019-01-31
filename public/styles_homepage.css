@@ -1,0 +1,68 @@
+body {
+  background-color: #D0F3D5;
+}
+
+img.image {
+	padding: 5px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1 {
+	text-align: center;
+	color: #C0C0C0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700;
+	font-size: 24px;
+}
+
+div.input{
+	text-align: center;
+	padding: 25px;
+}
+
+div.signup{
+	text-align: center;
+	padding: 25px;
+}
+
+#rev1{
+	padding: 50px;
+	border: 20px #ED85D4;
+	color: black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700;
+	font-size: 14px;
+}
+
+#dog1park {
+	background-color: #ED85D4;
+}
+
+#reviews {
+	background-color: #FFBFE3;
+}
+
+button.button1 {
+  background-color: #FFFFFF;
+  border: none;
+  color: #ED85D4;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700;
+}
+button.button2 {
+  background-color: #FFFFFF;
+  border: none;
+  color: #ED85D4;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700;
+}
