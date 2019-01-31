@@ -1,5 +1,6 @@
 const express = require('express');
 //const math = require('mathjs');
+var path = require('path');
 const app = express();
 module.exports = app;
 
@@ -17,6 +18,11 @@ var dogs = [{"owner":"sashaym","name":"Squishy"}, {"owner":"doctorwhocomposer","
 var sniffs = [{"sniffer":"doctorwhocomposer","sniffed":"sashaym"}, {"sniffer":"bill", "sniffed":"sashaym"}, {"sniffer":"sashaym", "sniffed":"bill"}];
 var chats = [];
 var messages = [];
+
+//HOMEPAGE
+app.get('/', function(req, res){
+	res.sendFile(path.join(__dirname+ '/public/homepage.html'));
+});
 
 //LOGIN
 app.get('/login', function(req, res){
